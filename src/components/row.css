@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+
+body {
+    font-size: 1.125em;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+:root {
+    --Light-red: rgb(255, 87, 87);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
+    --Light-slate-blue-background: hsl(252, 100%, 67%);
+    --Light-royal-blue-background: hsl(241, 80%, 54%);
+    --Violet-blue-circle: hsla(256, 72%, 46%, 1);
+    --Persian-blue-circle: hsla(241, 72%, 46%, 0);
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+
+.img-block>img {
+    position: relative;
+    top: 5px;
+    right: 10px;
+
+}
+
+
+
+.red-bg {
+    background-color: #fff6f5 !important;
+}
+
+
+.yellow-bg {
+    background-color: #fffbf2;
+}
+
+.blue-bg {
+    background-color: #f2fbfa;
+}
+
+.dark-blue-bg {
+    background-color: #f3f3fd;
+}
+
+
+
+
+.red-txt {
+    color: var(--Light-red);
+}
+
+.yellow-txt {
+    color: var(--Orangey-yellow);
+}
+
+.blue-txt {
+    color: var(--Green-teal);
+}
+
+.dark-blue-txt {
+    color: var(--Cobalt-blue);
+}
+
+.gray {
+    color: var(--Light-lavender);
+}
+
+strong, .subtitle  {
+    opacity: 0.9 ;
+}
+
+
+.subtitle {
+    text-align: left;
+}

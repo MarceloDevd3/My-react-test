@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+
+body{
+    font-size: 1.125em;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+
+.your__Result {
+    background:linear-gradient(#7857ff, #2e2be8) ;
+    padding: 1.5em 0;
+}
+
+
+.your__Result , .text-central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bubble {
+    background: linear-gradient(175deg, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    width: 150px;
+    padding: 30px;
+    border-radius: 50%;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.white {
+    color: var(--White);
+}
+
+.light {
+    color: var(--Light-lavender);
+}
+
+h1 {
+    font-size: 0.9em;
+}
+
+h2 > .big__text {
+    font-size: 3em;
+
+} 
+
+.little {
+    font-size: 0.9em;
+    opacity: 0.5;
+}
+
+.text-central {
+   justify-content: center;
+}
+
+ h3{
+  font-size: 1.4em;
+}
+
+.text-central > p {
+    width: 53%;
+    padding: 1em 0;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    
+    .your__Result {
+        background:linear-gradient(#7857ff, #2e2be8) ;
+        width: 350px;
+        height: 515px;
+        border-radius: 25px;
+    }
+
+    .bubble {
+        transform: scale(1.1);
+        margin: 3em 0;
+    }
+
+    .text-central > p {
+        width: 73%;
+        padding: 1em 0;
+    }
+
+    h1 {
+        font-size: 1em;
+        margin-top: 1em;
+        letter-spacing: 3px;
+    }
+
+    h3{
+        margin: 0.7em 0 0 0;
+      }
+
+    
+}

@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+
+body{
+    font-size: 1.125em;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+:root {
+--Light-red: hsl(0, 100%, 67%);
+--Orangey-yellow: hsl(39, 100%, 56%);
+--Green-teal: hsl(166, 100%, 37%);
+--Cobalt-blue: hsl(234, 85%, 45%);
+--Light-slate-blue-background: hsl(252, 100%, 67%);
+--Light-royal-blue-background: hsl(241, 81%, 54%);
+--Violet-blue-circle: hsla(256, 72%, 46%, 1);
+--Persian-blue-circle: hsla(241, 72%, 46%, 0);
+--White: hsl(0, 0%, 100%);
+--Pale-blue: hsl(221, 100%, 96%);
+--Light-lavender: hsl(241, 100%, 89%);
+--Dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+section {
+    margin-bottom: 1.5em;
+}
+
+.summary-contant ,.your__Result{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;   
+}
+
+
+.your__Result {
+    width: 100%;
+    height: 55vh;
+    padding-top: 2em;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-bottom-left-radius:25px ;
+    border-bottom-right-radius: 25px;
+    color: var(--Pale-blue);
+}
+
+.bubble {
+    background: linear-gradient(150deg, transparent,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));  
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+}
+
+.text-central {
+    width: 60%;
+    margin: 1em 0;
+}
+
+
+
+.row h4 {
+    display: flex;
+    margin: 1em 0;
+}
+
+.row .col + .col {
+    margin: 1em 0;
+}
+
+.col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.img-block img {
+    position: relative;
+    top: 5px;
+    right: 1px;
+}
+
+
+button {
+    border: none;
+    border-radius: 25px;
+    background-color: var(--Dark-gray-blue);
+}
+
+
+button:hover {
+    transition-duration: 1s;
+    background-color: hsl(224, 12%, 44%);
+}
+
+.btn {
+    color: var(--White);
+  width: 100%;
+  padding: 1em;
+}
+
+
+
+/*colors*/
+
+
+h1 {
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+
+
+h2 {
+    margin-top: 1.5em;
+}
+
+h3 {
+    font-size: 1.4em;
+    margin-bottom: 0.4em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.big__text {
+    font-size: 3.2em;
+}
+
+.red {
+    background-color: #fff6f5;
+}
+
+.yellow {
+    background-color: #fffbf2;
+}
+
+.green {
+    background-color: #f2fbfa;
+}
+
+.purple {
+    background-color: #f3f3fd;
+}
+
+.red-txt {
+  color: var(--Light-red);
+}
+.yellow-txt {
+  color: var(--Orangey-yellow);
+}
+.green-txt {
+  color: var(--Green-teal);
+}
+.blue-txt {
+   color: var(--Cobalt-blue); 
+}
+
+
+
+
+.gray {
+    color: var(--Light-lavender);
+}
+
